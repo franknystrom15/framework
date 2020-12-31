@@ -33,7 +33,7 @@ namespace Illuminate\Support\Facades;
  * @method static string dirname(string $path)
  * @method static string extension(string $path)
  * @method static string get(string $path, bool $lock = false)
- * @method static string hash(string $path)
+ * @method static string hash(string $path, string $algo = 'md5')
  * @method static string name(string $path)
  * @method static string sharedGet(string $path)
  * @method static string type(string $path)
